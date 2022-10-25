@@ -2,7 +2,8 @@
 
 ## 1. Kafka Architecture
 
-![image](https://user-images.githubusercontent.com/114802910/197858907-6a9999e4-6fc2-44cc-a7f5-73e637dcb992.png)
+![image](https://user-images.githubusercontent.com/114802910/197870935-f2da18ab-6bad-4f33-8678-9079df1a4e3e.png)
+
 
 ## 2. Apache Kafka Key Terminologies:
 
@@ -17,7 +18,7 @@
 
 **3. Broker**
 
-     Broker is referred to as Kafka Server
+     Broker is referred to as Kafka Server. By default Kafka stores data for 2 weeks and it can be extended via admin permissions
    
    
 **4. Cluster**
