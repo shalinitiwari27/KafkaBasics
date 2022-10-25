@@ -23,26 +23,26 @@
    
 **4. Cluster**
 
-     Clusters are group of computers.
+     Clusters are group of computers sharing the workload of kafka servers. Kafka is a distributed system. A Kafka cluster is a system that consists of several Brokers, Topics, and Partitions.
    
    
 **5. Topic**
 
 
-    Kafka Topics are Virtual Groups or Logs that hold messages and events in a logical order. 
+    Kafka Topics are Virtual Groups or Logs that hold messages and events in a logical order. Topic is a unique name for the dataset getting stored in kafka server.
    
 **6. Partitions**
 
      PArtitions are use to store big Kafka Topic, by dividing it inot smaller logs and store it separately inside once cluster.
-     With Kafka Partitions, you can effectively divide Kafka Topic to distribute them across different Kafka Servers in the Kafka cluster.
+     With Kafka Partitions, one can effectively divide Kafka Topic to distribute them across different Kafka Servers in the Kafka cluster.
      Even if one of the Servers fail in the future, the messages will be present across other Kafka Servers, eliminating the permanent loss of data
 
 **7. Offset**
    
-     Unique Id for ma message within a partion
+     Unique Id given to message as they arrive in a partition. This number once assigned cannot be changed. First message gets an offset 0 the next one gets 1 and so on. Global unique Identifier for locating a message is " Topic Name -> Partition Number -> Offset" . With these 3 info one can track the message in kafka.
      
 **8. Consumer groups**
 
-    A group of consumers acting  as a single logical unit
+    A group of consumers acting  as a single logical unit. Just like there are multiple brokers inside one kafka cluster to distribute the load. similarly at consumer side we have consumer groups to distribute the load of such huge data incoming from kafka server. Partitionng and Consumer group are ways to increase the scalability.
 
 
