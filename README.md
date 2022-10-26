@@ -44,5 +44,9 @@
 **8. Consumer groups**
 
     A group of consumers acting  as a single logical unit. Just like there are multiple brokers inside one kafka cluster to distribute the load. similarly at consumer side we have consumer groups to distribute the load of such huge data incoming from kafka server. Partitionng and Consumer group are ways to increase the scalability.
+    
+    
+![image](https://user-images.githubusercontent.com/114802910/198100408-cd4a28b6-37f3-4e59-b4de-2c4530a45003.png)
+
 
 
